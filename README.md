@@ -8,9 +8,9 @@
 ## Month 1: Advanced Java & Spring Boot Fundamentals
 
 ### Week 1: Advanced Java Concepts
-- **Day 1**: Advanced OOP Concepts
-  - **Topics**: Advanced OOP – inheritance, polymorphism, encapsulation, and abstraction.
-  - **Practice**: Design a small banking system with multiple account types using OOP principles.
+- **Day 1**: Java Streams & Functional Programming
+  - **Topics**: Stream API, lambda expressions, functional interfaces.
+  - **Practice**: Refactor an existing application using streams for data manipulation.
 - **Day 2**: Java Concurrency & Multithreading
   - **Topics**: Executors, CompletableFuture, and parallel streams.
   - **Practice**: Create a multithreaded application to process transactions concurrently.
@@ -31,10 +31,10 @@
 - **Day 1**: Microservices Architecture Fundamentals
   - **Topics**: Principles and patterns of microservices architecture.
   - **Practice**: Design services for user, account, and transaction domains.
-- **Day 2**: RESTful/RPC Communication & API Development
+- **Day 2**: RESTful Communication & API Development
   - **Practice**: Implement CRUD operations and error handling in your microservices.
 - **Day 3**: Introduction to Message Queues
-  - **Topics**: Overview of message brokers like RabbitMQ.
+  - **Topics**: Overview of message brokers like RabbitMQ or Kafka.
   - **Practice**: Set up a message queue for asynchronous communication between services.
 
 ### Week 4: Advanced Microservices Concepts
@@ -60,8 +60,8 @@
 ### Week 2: Resilience Patterns
 - **Day 4**: Circuit Breaker Pattern with Resilience4J
   - **Practice**: Apply circuit breakers to handle service failures.
-- **Day 5**: Rate Limiting
-  - **Practice**: Implement resilience patterns to control traffic.
+- **Day 5**: Bulkheads and Rate Limiting
+  - **Practice**: Implement resilience patterns to isolate service failures and control traffic.
 - **Day 6**: Distributed Tracing with Spring Cloud Sleuth & Zipkin
   - **Practice**: Set up distributed tracing to monitor requests across microservices.
 
@@ -76,8 +76,8 @@
 ### Week 4: Caching & Performance Optimization
 - **Day 1**: Advanced Caching Strategies with Redis
   - **Practice**: Implement caching strategies to improve response times and reduce database load.
-- **Day 2**: Monitoring & Logging
-  - **Topics**: Setting up ELK stack for logging and monitoring microservices.
+- **Day 2**: Monitoring with Prometheus & Grafana
+  - **Topics**: Set up Prometheus for metrics collection and Grafana for visualizing metrics.
   - **Practice**: Configure logging to centralize logs from all microservices.
 - **Day 3**: Performance Testing with JMeter or Gatling
   - **Practice**: Conduct performance tests and optimize your microservices based on results.
@@ -90,7 +90,7 @@
 - **Day 1**: Project Architecture Design
   - **Practice**: Define architecture for a digital banking application, including microservices for users, accounts, transactions, and payments.
 - **Day 2**: Setting Up the Project & Configuration Management
-  - **Practice**: Configure Spring Cloud Config, Eureka, and centralized configuration management.
+  - **Practice**: Configure Spring Cloud Config, Eureka, and centralize configuration management.
 - **Day 3**: Core Feature Development
   - **Practice**: Implement user registration, login, and account management features.
 
@@ -113,7 +113,7 @@
 ### Week 4: Deployment, Monitoring, & Final Review
 - **Day 1**: Dockerizing & Deploying Microservices
   - **Practice**: Deploy the microservices using Docker and Kubernetes.
-- **Day 2**: Setting Up Monitoring with Prometheus & Grafana
-  - **Practice**: Configure monitoring and alerts for your microservices.
+- **Day 2**: Monitoring with Prometheus & Grafana
+  - **Practice**: Set up Prometheus for metrics collection and Grafana for visualizing metrics.
 - **Day 3**: Final Review & Presentation
   - **Practice**: Review the complete digital banking system and present the final project.
