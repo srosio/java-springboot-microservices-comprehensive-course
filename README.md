@@ -63,7 +63,9 @@
 ### Week 4: Advanced Microservices Topics
 - **Day 1**: API Gateway with Spring Cloud Gateway 
 - **Day 2**: Load balancing with Spring Cloud LoadBalancer and Ribbon
-- **Day 3**: Implementing Circuit Breaker with Resilience4J and Distributed Tracing with Spring Cloud Sleuth and Zipkin
+- **Day 3**: **Security with Spring Security and Keycloak Integration**
+  - **Topics**: Introduction to OAuth2 and OpenID Connect, Keycloak as an Identity Provider, securing microservices with Keycloak.
+  - **Practice**: Secure microservices with Keycloak by setting up an OAuth2 flow, handling authentication and authorization.
 
 ---
 
@@ -81,8 +83,8 @@
   - **Practice**: Implement microservices for transactions, payments, and account statements.
 - **Day 2**: Service Communication & API Gateway
   - **Practice**: Integrate microservices with RestTemplate/Feign and set up API Gateway.
-- **Day 3**: Implementing Security
-  - **Practice**: Secure microservices with Spring Security, and handle authentication and authorization.
+- **Day 3**: **Implementing Security with Spring Security and Keycloak**
+  - **Practice**: Set up Keycloak with Spring Security for the digital banking application. Secure REST APIs using OAuth2 tokens for authentication and authorization.
 
 ### Week 3: Advanced Features & CQRS
 - **Day 1**: Implement CQRS in the Project
@@ -95,8 +97,8 @@
 ### Week 4: Deployment & Final Review
 - **Day 1**: Dockerize the Application
   - **Practice**: Create Docker images for microservices and set up Docker Compose.
-- **Day 2**: Deployment Strategies
-  - **Topics**: Discuss deployment strategies for cloud and on-premise.
+- **Day 2**: **Deploying Spring Cloud Config and Keycloak**
+  - **Topics**: Use Spring Cloud Config to manage configuration across microservices and set up Keycloak in production.
 - **Day 3**: Final Review & Presentation
   - **Practice**: Review the project, discuss improvements, and present the final application.
 
