@@ -34,7 +34,7 @@
 - **Day 2**: RESTful/RPC Communication & API Development
   - **Practice**: Implement CRUD operations and error handling in your microservices.
 - **Day 3**: Introduction to Message Queues
-  - **Topics**: Overview of message brokers like RabbitMQ or Kafka.
+  - **Topics**: Overview of message brokers like RabbitMQ.
   - **Practice**: Set up a message queue for asynchronous communication between services.
 
 ### Week 4: Advanced Microservices Concepts
