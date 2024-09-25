@@ -1,122 +1,119 @@
-# Java and Microservices Mentorship Curriculum
+# Java Microservices Mentorship Curriculum
 
 ## Duration: 3 Months
 ### Schedule: 3 Days per week, 1 hour per day
 
 ---
 
-## Month 1: Core Java Fundamentals & Spring Boot Basics
+## Month 1: Advanced Java & Spring Boot Fundamentals
 
-### Week 1: Core Java Fundamentals
+### Week 1: Advanced Java Concepts
 - **Day 1**: Advanced OOP Concepts
   - **Topics**: Advanced OOP – inheritance, polymorphism, encapsulation, and abstraction.
   - **Practice**: Design a small banking system with multiple account types using OOP principles.
-- **Day 2**: Collections Framework & Streams
-  - **Topics**: Java collections (List, Set, Map) and Streams API.
-  - **Practice**: Implement a simple user transaction system using collections and streams.
-- **Day 3**: Exception Handling & File I/O
-  - **Topics**: Custom exception handling, Java I/O (reading and writing files).
-  - **Practice**: Build a transaction logging system that handles and logs exceptions to files.
+- **Day 2**: Java Concurrency & Multithreading
+  - **Topics**: Executors, CompletableFuture, and parallel streams.
+  - **Practice**: Create a multithreaded application to process transactions concurrently.
+- **Day 3**: Java Design Patterns
+  - **Topics**: Singleton, Factory, and Observer patterns.
+  - **Practice**: Implement a design pattern in a small project to solve a design problem.
 
-### Week 2: Multithreading & Concurrency, JDBC
-- **Day 4**: Multithreading & Concurrency
-  - **Topics**: Threads, Executors, synchronization, CompletableFuture.
-  - **Practice**: Simulate concurrent banking transactions and ensure thread-safe operations.
-- **Day 5**: JDBC & Database Interaction
-  - **Topics**: JDBC, SQL operations (CRUD), database transactions.
-  - **Practice**: Implement account balance updates with transaction management.
-- **Day 6**: Java 8-17 Features & Review
+### Week 2: Spring Boot & Data Management
+- **Day 4**: Spring Boot Overview & Project Setup
+  - **Practice**: Set up a Spring Boot microservice project with REST APIs.
+- **Day 5**: Spring Data JPA & Database Integration
+  - **Practice**: Configure PostgreSQL/MySQL with Spring Data JPA and implement repository patterns.
+- **Day 6**: Introduction to Redis
+  - **Topics**: Overview of Redis as an in-memory data store.
+  - **Practice**: Integrate Redis for caching frequently accessed data.
 
-### Week 3: Spring Boot Introduction & Lombok
-- **Day 1**: Overview of Spring Framework and Spring Boot
-  - **Topics**: Dependency Injection (DI), Inversion of Control (IoC).
-  - **Practice**: Set up a Spring Boot project with basic configuration.
-- **Day 2**: Spring Boot project setup and Spring Initializr
-  - **Practice**: Create a RESTful API for user registration and account management.
-- **Day 3**: Lombok for reducing boilerplate code in Spring Boot
-  - **Practice**: Refactor the existing codebase using Lombok annotations (`@Data`, `@Builder`).
+### Week 3: Building Microservices
+- **Day 1**: Microservices Architecture Fundamentals
+  - **Topics**: Principles and patterns of microservices architecture.
+  - **Practice**: Design services for user, account, and transaction domains.
+- **Day 2**: RESTful Communication & API Development
+  - **Practice**: Implement CRUD operations and error handling in your microservices.
+- **Day 3**: Introduction to Message Queues
+  - **Topics**: Overview of message brokers like RabbitMQ or Kafka.
+  - **Practice**: Set up a message queue for asynchronous communication between services.
 
-### Week 4: Spring Boot Basics & Security Introduction
-- **Day 1**: Spring Boot RESTful services – building secure APIs
-  - **Practice**: Build an API to retrieve user balances and secure the endpoint using basic authentication.
-- **Day 2**: Dependency Injection & Spring Beans lifecycle
-  - **Practice**: Explore different scopes (`@Singleton`, `@Prototype`) in a real application.
-- **Day 3**: Spring Security Fundamentals
-  - **Topics**: Authentication and Authorization in Spring Security.
-  - **Practice**: Secure API endpoints for account management with roles and permissions.
+### Week 4: Advanced Microservices Concepts
+- **Day 1**: Spring Security Basics
+  - **Practice**: Secure REST APIs using Spring Security.
+- **Day 2**: Integrating Keycloak for OAuth2 Authentication
+  - **Practice**: Set up Keycloak for authentication in your microservices.
+- **Day 3**: Spring Cloud Config for Centralized Configuration
+  - **Practice**: Use Spring Cloud Config to manage application configurations centrally.
 
 ---
 
-## Month 2: Microservices Architecture & Advanced Topics
+## Month 2: Resilience & Scalability in Microservices
 
-### Week 1: Data Access with Spring Data JPA & Testing
-- **Day 1**: Introduction to Spring Data JPA
-  - **Practice**: Design entity classes for users, accounts, and transactions.
-- **Day 2**: CRUD operations with Spring Data JPA and PostgreSQL
-  - **Practice**: Build a service for account and transaction management using PostgreSQL.
-- **Day 3**: Testing with H2 Database
-  - **Practice**: Write unit and integration tests using H2 to simulate a database.
-
-### Week 2: Microservices Architecture Fundamentals
-- **Day 1**: Microservices Principles – Decoupling and Scalability
-  - **Practice**: Decompose the banking application into services (e.g., User, Account, Transaction).
-- **Day 2**: Communication in Microservices – REST and Messaging
-  - **Practice**: Set up inter-service communication between the Account and Transaction services.
-- **Day 3**: Designing Microservices with CQRS
-  - **Topics**: CQRS (Command Query Responsibility Segregation) for separating read and write operations.
-  - **Practice**: Implement CQRS in the transaction service to handle complex queries.
-
-### Week 3: Service Discovery, Config Management, & Security Integration
-- **Day 1**: Service Discovery with Netflix Eureka
-  - **Practice**: Implement Eureka for dynamic service discovery in the banking system.
-- **Day 2**: Spring Cloud Config for Centralized Configuration Management
-  - **Practice**: Set up Spring Cloud Config to manage configurations across different environments.
-- **Day 3**: Implementing Security with Keycloak
-  - **Topics**: OAuth2, OpenID Connect, and Keycloak.
-  - **Practice**: Secure microservices with Keycloak and enforce role-based access control (RBAC).
-
-### Week 4: API Gateway & Advanced Microservices Topics
+### Week 1: API Gateway & Service Discovery
 - **Day 1**: API Gateway with Spring Cloud Gateway
-  - **Practice**: Create an API Gateway for routing all microservice requests in the banking app.
-- **Day 2**: Load balancing with Spring Cloud LoadBalancer
-  - **Practice**: Distribute requests among multiple instances of microservices using LoadBalancer.
-- **Day 3**: Circuit Breakers and Resilience Patterns with Resilience4J
-  - **Practice**: Implement circuit breakers to handle service failures and improve resilience in microservices.
+  - **Practice**: Implement an API Gateway for routing requests to microservices.
+- **Day 2**: Service Discovery with Netflix Eureka
+  - **Practice**: Configure service registration and discovery.
+- **Day 3**: Load Balancing with Spring Cloud LoadBalancer
+  - **Practice**: Implement load balancing to manage service instances.
+
+### Week 2: Resilience Patterns
+- **Day 4**: Circuit Breaker Pattern with Resilience4J
+  - **Practice**: Apply circuit breakers to handle service failures.
+- **Day 5**: Bulkheads and Rate Limiting
+  - **Practice**: Implement resilience patterns to isolate service failures and control traffic.
+- **Day 6**: Distributed Tracing with Spring Cloud Sleuth & Zipkin
+  - **Practice**: Set up distributed tracing to monitor requests across microservices.
+
+### Week 3: Event-Driven Architecture
+- **Day 1**: Event-Driven Microservices with Kafka
+  - **Practice**: Implement an event-driven architecture using Kafka for inter-service communication.
+- **Day 2**: CQRS Pattern for Command and Query Separation
+  - **Practice**: Apply CQRS to your transaction service to separate read and write operations.
+- **Day 3**: Implementing the Saga Pattern
+  - **Practice**: Use the Saga pattern for managing distributed transactions across microservices.
+
+### Week 4: Caching & Performance Optimization
+- **Day 1**: Advanced Caching Strategies with Redis
+  - **Practice**: Implement caching strategies to improve response times and reduce database load.
+- **Day 2**: Monitoring & Logging
+  - **Topics**: Setting up ELK stack for logging and monitoring microservices.
+  - **Practice**: Configure logging to centralize logs from all microservices.
+- **Day 3**: Performance Testing with JMeter or Gatling
+  - **Practice**: Conduct performance tests and optimize your microservices based on results.
 
 ---
 
-## Month 3: Hands-On Real Project – Digital Banking Application
+## Month 3: Real-World Project – Digital Banking Application
 
-### Week 1: Project Setup & Core Features Development
-- **Day 1**: Define project requirements and architecture for the digital banking system
-  - **Topics**: Define microservices for Users, Accounts, and Transactions.
-- **Day 2**: Set up microservices with Spring Boot, PostgreSQL, and Docker
-  - **Practice**: Dockerize individual microservices and run them with Docker Compose.
-- **Day 3**: Implement user registration, login, and account creation features
-  - **Practice**: Use Spring Data JPA to persist user and account data.
+### Week 1: Project Planning & Setup
+- **Day 1**: Project Architecture Design
+  - **Practice**: Define architecture for a digital banking application, including microservices for users, accounts, transactions, and payments.
+- **Day 2**: Setting Up the Project & Configuration Management
+  - **Practice**: Configure Spring Cloud Config, Eureka, and centralize configuration management.
+- **Day 3**: Core Feature Development
+  - **Practice**: Implement user registration, login, and account management features.
 
-### Week 2: Microservice Communication, Security, and Gateway
-- **Day 1**: Build additional microservices for payments and transactions
-  - **Practice**: Integrate Feign clients for microservice communication.
-- **Day 2**: API Gateway and centralized security with Keycloak
-  - **Practice**: Secure the API Gateway using OAuth2 and Keycloak authentication.
-- **Day 3**: Service Communication with Feign and Message Queues
-  - **Practice**: Implement inter-service communication with Feign clients and message queues for event-driven architecture.
+### Week 2: Service Integration & Security
+- **Day 1**: Integrating Microservices
+  - **Practice**: Implement service-to-service communication for transactions and payments.
+- **Day 2**: Securing Microservices with Keycloak
+  - **Practice**: Implement OAuth2 security for all microservices using Keycloak.
+- **Day 3**: API Gateway Security Integration
+  - **Practice**: Secure the API Gateway and manage authentication and routing.
 
-### Week 3: Advanced Features, Testing & CQRS
-- **Day 1**: Implement CQRS in the Transactions service
-  - **Practice**: Separate the command and query layers in the transaction service for complex data operations.
-- **Day 2**: Notifications, reporting, and roles management
-  - **Practice**: Add notification features for transactions and reports for account summaries.
-- **Day 3**: Testing & Quality Assurance
-  - **Practice**: Write unit tests, and integration tests, and perform performance testing for microservices.
+### Week 3: Advanced Features & Testing
+- **Day 1**: Implementing CQRS and Event-Driven Features
+  - **Practice**: Use CQRS and event-driven patterns for transactions and reporting.
+- **Day 2**: Comprehensive Testing Strategy
+  - **Practice**: Write unit tests, integration tests, and end-to-end tests for the entire banking system.
+- **Day 3**: Performance Optimization & Load Testing
+  - **Practice**: Conduct load testing and optimize the microservices for performance.
 
-### Week 4: Deployment & Final Review
-- **Day 1**: Dockerize the Application for cloud deployment
-  - **Practice**: Build Docker images for all microservices and set up Kubernetes/Docker Compose for deployment.
-- **Day 2**: Deploying Spring Cloud Config and Keycloak in Production
-  - **Practice**: Use Spring Cloud Config to manage configuration across all microservices and secure them with Keycloak in a cloud environment.
+### Week 4: Deployment, Monitoring, & Final Review
+- **Day 1**: Dockerizing & Deploying Microservices
+  - **Practice**: Deploy the microservices using Docker and Kubernetes.
+- **Day 2**: Setting Up Monitoring with Prometheus & Grafana
+  - **Practice**: Configure monitoring and alerts for your microservices.
 - **Day 3**: Final Review & Presentation
-  - **Practice**: Review the complete banking application, fix any issues, and present the final project.
-
----
+  - **Practice**: Review the complete digital banking system and present the final project.
