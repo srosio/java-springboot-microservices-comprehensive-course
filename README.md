@@ -31,7 +31,7 @@
 - **Day 1**: Microservices Architecture Fundamentals
   - **Topics**: Principles and patterns of microservices architecture.
   - **Practice**: Design services for user, account, and transaction domains.
-- **Day 2**: RESTful Communication & API Development
+- **Day 2**: RESTful/RPC Communication & API Development
   - **Practice**: Implement CRUD operations and error handling in your microservices.
 - **Day 3**: Introduction to Message Queues
   - **Topics**: Overview of message brokers like RabbitMQ or Kafka.
