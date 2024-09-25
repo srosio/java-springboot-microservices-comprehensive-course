@@ -60,8 +60,8 @@
 ### Week 2: Resilience Patterns
 - **Day 4**: Circuit Breaker Pattern with Resilience4J
   - **Practice**: Apply circuit breakers to handle service failures.
-- **Day 5**: Bulkheads and Rate Limiting
-  - **Practice**: Implement resilience patterns to isolate service failures and control traffic.
+- **Day 5**: Rate Limiting
+  - **Practice**: Implement resilience patterns to control traffic.
 - **Day 6**: Distributed Tracing with Spring Cloud Sleuth & Zipkin
   - **Practice**: Set up distributed tracing to monitor requests across microservices.
 
@@ -90,7 +90,7 @@
 - **Day 1**: Project Architecture Design
   - **Practice**: Define architecture for a digital banking application, including microservices for users, accounts, transactions, and payments.
 - **Day 2**: Setting Up the Project & Configuration Management
-  - **Practice**: Configure Spring Cloud Config, Eureka, and centralize configuration management.
+  - **Practice**: Configure Spring Cloud Config, Eureka, and centralized configuration management.
 - **Day 3**: Core Feature Development
   - **Practice**: Implement user registration, login, and account management features.
 
