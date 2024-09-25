@@ -8,11 +8,11 @@
 ## Month 1: Advanced Java & Spring Boot Fundamentals
 
 ### Week 1: Advanced Java Concepts
-- **Day 1**: Java Streams & Functional Programming
-  - **Topics**: Stream API, lambda expressions, functional interfaces.
-  - **Practice**: Refactor an existing application using streams for data manipulation.
+- **Day 1**: Advanced Object-Oriented Programming (OOP) Principles
+  - **Topics**: Inheritance, polymorphism, encapsulation, and abstraction in depth.
+  - **Practice**: Design a library management system applying advanced OOP principles.
 - **Day 2**: Java Concurrency & Multithreading
-  - **Topics**: Executors, CompletableFuture, and parallel streams.
+  - **Topics**: Executors, CompletableFuture, and parallel processing.
   - **Practice**: Create a multithreaded application to process transactions concurrently.
 - **Day 3**: Java Design Patterns
   - **Topics**: Singleton, Factory, and Observer patterns.
@@ -20,7 +20,7 @@
 
 ### Week 2: Spring Boot & Data Management
 - **Day 4**: Spring Boot Overview & Project Setup
-  - **Practice**: Set up a Spring Boot microservice project with REST APIs.
+  - **Practice**: Set up a Spring Boot microservice project with REST APIs using **Maven** and **Gradle**.
 - **Day 5**: Spring Data JPA & Database Integration
   - **Practice**: Configure PostgreSQL/MySQL with Spring Data JPA and implement repository patterns.
 - **Day 6**: Introduction to Redis
@@ -33,9 +33,9 @@
   - **Practice**: Design services for user, account, and transaction domains.
 - **Day 2**: RESTful Communication & API Development
   - **Practice**: Implement CRUD operations and error handling in your microservices.
-- **Day 3**: Introduction to Message Queues
-  - **Topics**: Overview of message brokers like RabbitMQ or Kafka.
-  - **Practice**: Set up a message queue for asynchronous communication between services.
+- **Day 3**: Remote Procedure Call (RPC) Basics
+  - **Topics**: Introduction to RPC, gRPC, and its benefits.
+  - **Practice**: Implement a simple gRPC service for communication between microservices.
 
 ### Week 4: Advanced Microservices Concepts
 - **Day 1**: Spring Security Basics
@@ -60,27 +60,26 @@
 ### Week 2: Resilience Patterns
 - **Day 4**: Circuit Breaker Pattern with Resilience4J
   - **Practice**: Apply circuit breakers to handle service failures.
-- **Day 5**: Bulkheads and Rate Limiting
-  - **Practice**: Implement resilience patterns to isolate service failures and control traffic.
+- **Day 5**: Rate Limiting
+  - **Practice**: Implement rate limiting to control traffic to your services.
 - **Day 6**: Distributed Tracing with Spring Cloud Sleuth & Zipkin
   - **Practice**: Set up distributed tracing to monitor requests across microservices.
 
 ### Week 3: Event-Driven Architecture
 - **Day 1**: Event-Driven Microservices with Kafka
   - **Practice**: Implement an event-driven architecture using Kafka for inter-service communication.
-- **Day 2**: CQRS Pattern for Command and Query Separation
-  - **Practice**: Apply CQRS to your transaction service to separate read and write operations.
-- **Day 3**: Implementing the Saga Pattern
+- **Day 2**: Implementing the Saga Pattern
   - **Practice**: Use the Saga pattern for managing distributed transactions across microservices.
+- **Day 3**: Handling Asynchronous Events
+  - **Practice**: Implement event listeners to respond to events in your application.
 
 ### Week 4: Caching & Performance Optimization
 - **Day 1**: Advanced Caching Strategies with Redis
   - **Practice**: Implement caching strategies to improve response times and reduce database load.
-- **Day 2**: Monitoring with Prometheus & Grafana
-  - **Topics**: Set up Prometheus for metrics collection and Grafana for visualizing metrics.
-  - **Practice**: Configure logging to centralize logs from all microservices.
-- **Day 3**: Performance Testing with JMeter or Gatling
+- **Day 2**: Performance Testing with JMeter or Gatling
   - **Practice**: Conduct performance tests and optimize your microservices based on results.
+- **Day 3**: Monitoring with Prometheus & Grafana
+  - **Practice**: Set up Prometheus for metrics collection and Grafana for visualizing metrics.
 
 ---
 
@@ -103,17 +102,15 @@
   - **Practice**: Secure the API Gateway and manage authentication and routing.
 
 ### Week 3: Advanced Features & Testing
-- **Day 1**: Implementing CQRS and Event-Driven Features
-  - **Practice**: Use CQRS and event-driven patterns for transactions and reporting.
+- **Day 1**: Implementing Event-Driven Features
+  - **Practice**: Use event-driven architecture for notifications and reporting.
 - **Day 2**: Comprehensive Testing Strategy
   - **Practice**: Write unit tests, integration tests, and end-to-end tests for the entire banking system.
 - **Day 3**: Performance Optimization & Load Testing
   - **Practice**: Conduct load testing and optimize the microservices for performance.
 
-### Week 4: Deployment, Monitoring, & Final Review
+### Week 4: Deployment & Final Review
 - **Day 1**: Dockerizing & Deploying Microservices
   - **Practice**: Deploy the microservices using Docker and Kubernetes.
-- **Day 2**: Monitoring with Prometheus & Grafana
-  - **Practice**: Set up Prometheus for metrics collection and Grafana for visualizing metrics.
-- **Day 3**: Final Review & Presentation
+- **Day 2**: Final Review & Presentation
   - **Practice**: Review the complete digital banking system and present the final project.
